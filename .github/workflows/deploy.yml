@@ -33,6 +33,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ./
           local-dir: ./dist/
-          exclude: _astro
-          protocol: ftps
-          dangerous-clean-slate: true
+          protocol: ftp
