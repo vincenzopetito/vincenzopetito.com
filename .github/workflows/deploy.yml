@@ -15,15 +15,11 @@ jobs:
       - name: Get latest code
         uses: actions/checkout@v4
 
-      - name: Build Astro
-        run: npm run build
-
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+      - name: Install, build, and upload your site output
+        uses: radenpioneer/astro-ftp-deploy@v0.1.0
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /
-          local-dir: ./dist/
-          protocol: ftps
+          directory: /
+          path: .
