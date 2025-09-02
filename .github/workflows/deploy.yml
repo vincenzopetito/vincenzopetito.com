@@ -35,3 +35,4 @@ jobs:
           local-dir: ./dist/
           exclude: _astro
           protocol: ftps
+          dangerous-clean-slate: true
