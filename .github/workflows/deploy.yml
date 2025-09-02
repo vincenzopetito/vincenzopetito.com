@@ -33,3 +33,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /www/
           local-dir: ./dist/
+          protocol: sftp
