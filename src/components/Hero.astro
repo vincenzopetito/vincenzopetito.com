@@ -9,7 +9,7 @@ const imageName = Astro.props.imageName;
         <figure>
             <Image src={image} alt={imageName} width={344} height={344} format="webp" />
         </figure>
-        {Astro.url.pathname == "/" &&
+        <!-- {Astro.url.pathname == "/" &&
             <a href="#" class="refresh" aria-label="refresh image">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.979 12.4644H3.979V6.46436" stroke="#3D6B99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -18,7 +18,7 @@ const imageName = Astro.props.imageName;
                     <path d="M8.22168 23.7783C9.24312 24.7997 10.4558 25.61 11.7903 26.1628C13.1249 26.7156 14.5553 27.0001 15.9999 27.0001C17.4444 27.0001 18.8748 26.7156 20.2094 26.1628C21.544 25.61 22.7566 24.7997 23.778 23.7783L28.0207 19.5356" stroke="#3D6B99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
             </a>
-        }
+        } -->
     </div>
     <div>
         <slot />

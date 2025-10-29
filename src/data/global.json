@@ -3,18 +3,18 @@
     "description": "Digital Product Designer and professor full time. Music listener, movies watcher, meme lover and keyboard shortcut maniac part-time.",
     "websiteUrl": "http://vincenzopetito.com",
     "email": "me@vincenzopetito.com",
-    "social": [
-        {
-            "name": "Linkedin",
+    "social": {
+        "linkedin": {
+            "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/vincenzopetito"
         },
-        {
+        "dribbble": {
             "name": "Dribbble",
             "url": "https://dribbble.com/vincenzopetito"
         },
-        {
+        "instagram": {
             "name": "Instagram",
             "url": "https://www.instagram.com/vinpiexel"
         }
-    ]
+    }
 }
