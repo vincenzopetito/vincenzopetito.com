@@ -31,7 +31,7 @@ import heroImage from "../../public/images/playground.jpg";
     .shots {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: var(--space_Large);
+        gap: var(--space_Medium);
     }
 
     .shots li:nth-child(even) {
@@ -56,9 +56,9 @@ import heroImage from "../../public/images/playground.jpg";
 
     .shots li a figure {
         margin: 0;
-        border-radius: calc(var(--space_Base) + var(--space_Small));
+        border-radius: var(--space_Base);
         width: 100%;
-        aspect-ratio: 4 / 3.5;
+        aspect-ratio: 4/3.3;
         background-size: cover;
         background-position: center;
     }
